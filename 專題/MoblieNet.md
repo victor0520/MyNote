@@ -10,26 +10,26 @@
 
 * 深度卷積--將卷積核拆分成單通道形式，在不改變輸入特徵影象的深度的情況下，對每一通道進行卷積操作，就會得到和輸入特徵圖通道數一致的輸出特徵圖
 
-![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/2.png)
+![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/3.png)
 
 * 逐點卷積--就是1*1卷積，主要作用就是對特徵圖進行升維和降維
 
-![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/3.png)
+![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/4.png)
 
 * 標準卷積與深度可分離卷積的過程對比:
 
-![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/4.png)
+![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/5.png)
 
 * 深度可分離卷積夠讓用更少的引數，更少的運算，達到差不多的結果
 
 ### 引數量與計算量差異
 * 標準卷積的引數量與計算量
 
-![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/5.png)
+![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/6.png)
 
 * 深度可分離卷積的引數量與計算量
 
-![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/6.png)
+![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/12.png)
 
 * 對比
 
