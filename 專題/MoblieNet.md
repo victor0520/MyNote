@@ -48,3 +48,8 @@
 * 分辨率因子 (Resolution Multiplier)，用來控制輸入圖像的分辨率，也就是說 Rho 越小、輸入圖像就越小，變換後的計算量為
 ![PICTURE](https://github.com/victor0520/MyNote/blob/main/%E5%B0%88%E9%A1%8C/bitmap/10.png)
 * Rho 介於 (0, 1] 區間，典型的設定值為 224、192、160、128，可以使計算量降低 (alpha)**2 x ρ x ρ 倍
+
+# 參考資料
+* [卷積神經網路學習筆記——輕量化網路MobileNet系列（V1，V2，V3）](https://www.gushiciku.cn/pl/gxFx/zh-tw)
+* [MobileNetV1 論文閱讀](https://medium.com/ching-i/mobilenetv1-%E8%AB%96%E6%96%87%E9%96%B1%E8%AE%80-1e7568096e8b)
+* [深度学习论文翻译解析（十七）：MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://www.cnblogs.com/wj-1314/p/14318311.html)
